@@ -33,14 +33,14 @@
                                 @endforeach
                             </select>
                         </div>
-
-                        <label>Select image to upload:</label>
                         <div class="controls">
                             <div class="entry">
-                                <input class="btn btn-primary" name="file[]" type="file" value="@yield('editPhoto')"><br/>
+                                <label>Select image to upload:</label>
+                                <input class="btn btn-primary" name="file[]" type="file"
+                                       value="@yield('editPhoto')"><br/>
                                 <div class="form-group">
                                     <label for="newsBody">News Content:</label>
-                                    <textarea class="form-control" rows="5" name="newsBody[]"
+                                    <textarea class="form-control ckeditor" rows="5" name="newsBody[]"
                                               value="">@yield('editBody')</textarea>
                                 </div>
 

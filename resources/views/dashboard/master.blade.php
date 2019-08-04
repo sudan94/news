@@ -59,5 +59,14 @@
 
 <script src="/js/custom.js"></script>
 
+<script src="/js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript">
+    CKEDITOR.replace( 'messageArea',
+        {
+            customConfig : 'config.js',
+            toolbar : 'simple'
+        })
+</script>
+
 </body>
 </html>

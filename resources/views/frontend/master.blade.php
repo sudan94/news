@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/front/css/responsive.css">
 
 
-    <title>सिंहदरबार</title>
+    <title>Singha Durbar News</title>
 </head>
 
 <body>

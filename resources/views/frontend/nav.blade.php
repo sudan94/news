@@ -17,8 +17,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
             <ul class="nav navbar-nav navbar-left">
-                <li class="active"><a href="/index">गृहपृष्ठ<span class="sr-only">(current)</span></a></li>
-                @foreach($categories->take(12) as $category)
+                <li class="active"><a href="/index">Home<span class="sr-only">(current)</span></a></li>
+                @foreach($categories->take(11) as $category)
                     <li><a href="/category/{{$category->id}}">{{$category->name}}</a> </li>
                 @endforeach
                 {{--<li><a href="/politics">राजनीति </a></li>

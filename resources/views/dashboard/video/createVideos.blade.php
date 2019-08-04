@@ -10,17 +10,18 @@
             <div class="col-md-8 col-md-offset-2">
                 <div class="box-body">
                     <form method="post" action="/createVideo" enctype="multipart/form-data"
-                          class="form-group">
-                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                          class="form-group" >
+                        {{csrf_field()}}
+                        <input type="hidden" name="_token">
                         <input type="hidden" name="category" value="video">
-                        <input type="hidden" name="newsCategory_id" value="10">
+                        <input type="hidden" name="newsCategory_id" value="9">
                         <label>video Title</label>
                         <div class="form-group">
                             <input type="text" id="videoTitle" name="videoTitle" class="form-control">
                         </div>
                         <label>video Description</label>
                         <div class="form-group">
-                           <textarea class="form-control" id="videoBody" rows="5" name="videoBody"
+                           <textarea class="form-control ckeditor" id="videoBody" rows="5" name="videoBody"
                                      value=""></textarea>
                         </div>
                         <label>Author</label>

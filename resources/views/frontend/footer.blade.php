@@ -4,13 +4,13 @@
             <div class="col-sm-4 col-md-4">
                 <img src="/img/logo.png"/>
                 <ul>
-                    <li>कल्मितिदोल, एरपोर्ट, काठमाडौँ</li>
+                    <li>Kotewsor, Kathmandu</li>
                     <li>GPO 3259</li>
                     <li>9851071270, 5547326</li>
                 </ul>
             </div>
             <div class="col-sm-4 col-md-4">
-                <h4>सिंहदरबार स्तम्भहरु</h4>
+                <h4>Singha Durbar News</h4>
                 <div class="row">
                     @foreach($categories as $category)
                         <div class="col-sm-6 col-md-6">
@@ -32,7 +32,7 @@
         <div class="footer-content">
             <div class="row">
                 <div class="col-sm-6 col-md-6">
-                    <p class="left"><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2017, Team Axle</p>
+                    <p class="left"><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2018, Devraj Bhandari</p>
                     <p class="left">All rights reserved</p>
                 </div>
 

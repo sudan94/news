@@ -33,7 +33,7 @@ Route::group(['middleware' => ['role','auth']], function()
     Route::delete('/newsCategory/{id}/delete', 'newsCategoryController@destroy');
 });
 
-Route::get('/', 'frontController@index');
+Route::get('/', 'frontController@index')->name('index');
 
 Route::resource('/index', 'frontController');
 
@@ -55,7 +55,7 @@ Route::post('/videoList/{id}/update', 'videosController@update');
 
 Route::get('/category/{id}', 'frontController@forAll');
 
-Route::get('/category/index/{id}', 'frontController@forAll');
+Route::get('/category/index/{id}', 'frontController@show');
 
 
 Auth::routes();

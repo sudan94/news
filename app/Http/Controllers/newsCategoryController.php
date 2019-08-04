@@ -46,8 +46,7 @@ class newsCategoryController extends Controller
     public function store(Request $request, APP\news $news)
     {
         newsCategory::create([
-            'name' => request('category'),
-        ]);
+            'name' => request('category'),]);
         Session()->flash('message','New Category Added Successfully');
         return redirect()->back();
     }
